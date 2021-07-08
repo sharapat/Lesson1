@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 class InnerAdapter: RecyclerView.Adapter<InnerViewHolder>() {
-
     var users: List<User> = listOf()
     set(value) {
         field = value
